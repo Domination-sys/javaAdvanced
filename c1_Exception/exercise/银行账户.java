@@ -1,8 +1,8 @@
 package javaAdvanced.c1_Exception.exercise;
 
-public class Account {
+public class 银行账户 {
     double banlance;
-    public Account(double banlance){
+    public 银行账户(double banlance){
         this.banlance = banlance;
     }
     public double getBanlance() {
@@ -11,21 +11,21 @@ public class Account {
     public void deposit(double amount){
         this.banlance += amount;
     }
-    public void withdraw(double amount) throws OverdrafException {
+    public void withdraw(double amount) throws 透支 {
         if(banlance>=amount)
             banlance -= amount;
         else
-            throw new OverdrafException("余额不足",amount-banlance);
+            throw new 透支("余额不足",amount-banlance);
     }
 
     public static void main(String[] args) {
-        Account account = new Account(1000);
+        银行账户 account = new 银行账户(1000);
         account.deposit(1000);
         System.out.println("余额还有"+account.getBanlance());
 
         try{
             account.withdraw(5000);
-        }catch (OverdrafException e){
+        }catch (透支 e){
             e.printStackTrace();
             System.err.println("透支金额为"+e.getDeficit());
         }

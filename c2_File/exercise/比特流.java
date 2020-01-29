@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class byteStream_1 {
+public class 比特流 {
     public static void main(String[] args) throws IOException {
         File f = new File("/Users/wangbotao/Desktop/w/b/t/t/t/t/t/t/t/t/t.txt");
         File parentFile = f.getParentFile();

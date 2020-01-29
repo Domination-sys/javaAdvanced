@@ -2,7 +2,7 @@ package javaAdvanced.c2_File.exercise;
 
 import java.io.*;
 
-public class FileMethod {
+public class 常见文件方法 {
 
     //复制文件是常见的IO操作，设计如下方法，实现复制源文件srcFile到目标文件destFile
     public static void copyFile(File copyFile, File dstFile){

@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 
-public class Sort {
+public class 搜索性能比较 {
     public static void main(String[] args) {
         int[] arr1 = new int[40000];
         int[] arr2 = new int[40000];

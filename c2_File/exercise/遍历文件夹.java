@@ -7,7 +7,7 @@ import java.io.File;
 遍历这个目录下所有的文件(不用遍历子目录)
 找出这些文件里，最大的和最小(非0)的那个文件，打印出他们的文件名
  */
-public class TravelsalFlies {
+public class 遍历文件夹 {
     public static void main(String[] args) {
         File f = new File("c:\\\\windows");
         File[] fs = f.listFiles();

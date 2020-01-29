@@ -1,12 +1,12 @@
 package javaAdvanced.c1_Exception.exercise;
 
-public class OverdrafException extends Exception {
+public class 透支 extends Exception {
     double deficit;
 
     public double getDeficit() {
         return deficit;
     }
-    public OverdrafException(String msg,double deficit){
+    public 透支(String msg, double deficit){
         super(msg);
         this.deficit = deficit;
     }

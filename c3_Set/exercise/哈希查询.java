@@ -18,7 +18,7 @@ student-9365
 1. 不使用HashMap，直接使用for循环找出来，并统计花费的时间
 2. 借助HashMap，找出结果，并统计花费的时间
  */
-public class Hash {
+public class 哈希查询 {
     public static void main(String[] args) {
         ArrayList<Student> s = new ArrayList<>();
         HashMap<String, List<Student>> hm = new HashMap<>();
